@@ -18,6 +18,8 @@ Aplikasi ini dikembangkan dengan tampilan antarmuka yang modern dan aesthetic me
 
 # Fitur Aplikasi
 
+## Fitur Wajib
+
 **1. CREATE (Tambah Data Buku)**
 
 Fitur ini memungkinkan pengguna untuk menambahkan buku baru melalui halaman “Add Book”. Pada halaman tersebut, pengguna diminta untuk mengisi beberapa data penting yaitu Book Title (Judul Buku), Author (Penulis), Year (Tahun Terbit), dan Total Pages (Jumlah Halaman). Setelah tombol Save ditekan, data buku akan dikirim kembali ke halaman utama menggunakan Get.back(result:). Buku yang baru ditambahkan akan langsung muncul di dalam daftar, dan tampilan diperbarui secara otomatis menggunakan setState() sehingga pengguna dapat langsung melihat hasil input tanpa perlu memuat ulang aplikasi.
@@ -26,13 +28,15 @@ Fitur ini memungkinkan pengguna untuk menambahkan buku baru melalui halaman “A
 
 Fitur ini berfungsi untuk menampilkan seluruh buku yang telah ditambahkan oleh pengguna. Data buku ditampilkan pada halaman utama dalam bentuk Card dengan desain membulat agar terlihat modern dan rapi. Setiap card menampilkan informasi berupa Book Title yang ditampilkan dengan huruf tebal, Author, Year, serta Total Pages. Apabila belum ada buku yang ditambahkan, aplikasi akan menampilkan pesan “No favorite books yet. Tap + to add.” sebagai informasi bahwa daftar masih kosong.
 
-**3. UPDATE (Edit Data Buku)** 
-
-Fitur update memungkinkan pengguna untuk mengubah data buku yang sudah tersimpan. Ketika ikon edit ditekan, aplikasi akan berpindah ke halaman Edit menggunakan Get.to(). Pada halaman tersebut, data lama akan otomatis terisi pada setiap TextField sehingga pengguna tidak perlu mengetik ulang dari awal. Setelah perubahan selesai dan tombol Update ditekan, data akan diperbarui dan dikirim kembali ke halaman utama menggunakan Get.back(result:). Daftar buku kemudian langsung diperbarui sehingga perubahan dapat terlihat secara real-time.
-
-**4. DELETE (Hapus Data Buku)**
+**3. DELETE (Hapus Data Buku)**
 
 Fitur delete memungkinkan pengguna untuk menghapus buku dari daftar favorit. Ketika ikon delete ditekan, data buku akan dihapus dari list yang tersimpan di dalam state aplikasi. Setelah itu, tampilan akan langsung diperbarui menggunakan setState() sehingga buku yang dihapus tidak lagi muncul dalam daftar.
+
+## Nilai Tambah
+
+**4. UPDATE (Edit Data Buku)** 
+
+Fitur update memungkinkan pengguna untuk mengubah data buku yang sudah tersimpan. Ketika ikon edit ditekan, aplikasi akan berpindah ke halaman Edit menggunakan Get.to(). Pada halaman tersebut, data lama akan otomatis terisi pada setiap TextField sehingga pengguna tidak perlu mengetik ulang dari awal. Setelah perubahan selesai dan tombol Update ditekan, data akan diperbarui dan dikirim kembali ke halaman utama menggunakan Get.back(result:). Daftar buku kemudian langsung diperbarui sehingga perubahan dapat terlihat secara real-time.
 
 **5. MULTI PAGE NAVIGATION**
 
