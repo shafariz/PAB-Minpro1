@@ -24,21 +24,21 @@ Pengguna dapat menambahkan buku baru melalui halaman “Add Book”.
 
 Data yang harus diisi:
 
-- Book Title (Judul Buku)
+✦ Book Title (Judul Buku)
 
-- Author (Penulis)
+✦ Author (Penulis)
 
-- Year (Tahun Terbit)
+✦ Year (Tahun Terbit)
 
-- Total Pages (Jumlah Halaman)
+✦ Total Pages (Jumlah Halaman)
 
 Setelah tombol Save ditekan:
 
-- Data akan dikirim kembali ke halaman utama menggunakan Get.back(result:)
+✦ Data akan dikirim kembali ke halaman utama menggunakan Get.back(result:)
 
-- Buku langsung muncul dalam daftar
+✦ Buku langsung muncul dalam daftar
 
-- Tampilan diperbarui menggunakan setState()
+✦ Tampilan diperbarui menggunakan setState()
 
 **2. READ (Menampilkan Daftar Buku)**
 
@@ -46,13 +46,13 @@ Semua buku yang telah ditambahkan akan ditampilkan pada halaman utama dalam bent
 
 Informasi yang ditampilkan:
 
-- Book Title (Bold)
+✦ Book Title (Bold)
 
-- Author
+✦ Author
 
-- Year
+✦ Year
 
-- Total Pages
+✦ Total Pages
 
 Jika belum ada data, aplikasi akan menampilkan pesan “No favorite books yet. Tap + to add.”
 
