@@ -56,7 +56,7 @@ Informasi yang ditampilkan:
 
 Jika belum ada data, aplikasi akan menampilkan pesan “No favorite books yet. Tap + to add.”
 
-**3. UPDATE (Edit Data Buku)** [NILAI TAMBAH]
+**3. UPDATE (Edit Data Buku)** **[NILAI TAMBAH]**
 
 Pengguna dapat mengedit data buku dengan menekan ikon ✏️ (edit).
 
@@ -72,7 +72,19 @@ Prosesnya:
 
 ✦ Daftar langsung ter-update
 
+**4. DELETE (Hapus Data Buku)**
 
+Pengguna dapat menghapus buku dari daftar dengan menekan ikon 🗑️ (delete).
+
+Saat tombol delete ditekan data dihapus dari list dan tampilan diperbarui menggunakan setState()
+
+**5. MULTI PAGE NAVIGATION [NILAI TAMBAH]**
+
+Aplikasi menggunakan GetX Navigation untuk berpindah antar halaman:
+
+✦ Get.to() untuk berpindah ke halaman Tambah atau Edit
+
+✦ Get.back(result:) untuk kembali ke halaman sebelumnya sambil mengirim data
 
 ---
 
