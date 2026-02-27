@@ -14,11 +14,33 @@ Aplikasi ini memungkinkan pengguna untuk menambahkan data buku baru, melihat daf
 
 Aplikasi ini dirancang dengan tampilan UI modern dan aesthetic menggunakan perpaduan warna Purple Ash (#8F8395) dan Vanilla (#F3E5AB) serta Font Poppins sebagai font utama dan Playfair Display khusus untuk judul aplikasi.
 
+---
+
 # Fitur Aplikasi
 
 **1. CREATE (Tambah Data Buku)**
 
 Pengguna dapat menambahkan buku baru melalui halaman “Add Book”.
+
+Data yang harus diisi:
+
+- Book Title (Judul Buku)
+
+- Author (Penulis)
+
+- Year (Tahun Terbit)
+
+- Total Pages (Jumlah Halaman)
+
+Setelah tombol Save ditekan:
+
+- Data akan dikirim kembali ke halaman utama menggunakan Get.back(result:)
+
+- Buku langsung muncul dalam daftar
+
+- Tampilan diperbarui menggunakan setState()
+
+---
 
 # Widget yang Digunakan
 # Dokumentasi Program dan Cara Menggunakannya
