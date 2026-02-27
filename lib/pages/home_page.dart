@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Column(
         children: [
-          // 🔥 HEADER CUSTOM (tidak kaku lagi)
+          // HEADER
           Container(
             width: double.infinity,
             padding: EdgeInsets.only(top: 40, bottom: 40),
@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
 
           SizedBox(height: 20),
 
-          // 🔥 LIST AREA
+          // LIST AREA
           Expanded(
             child: daftarBuku.isEmpty
                 ? Center(
@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
 
-      // 🔥 Tombol + Bulat & Lebih Modern
+      // Button Tambah
       floatingActionButton: FloatingActionButton(
         shape: CircleBorder(),
         backgroundColor: Color(0xFF8F8395),

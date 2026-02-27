@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'My Favorite Books',
       theme: ThemeData(
         scaffoldBackgroundColor: Color(0xFFF3E5AB), // vanilla
-        textTheme: GoogleFonts.poppinsTextTheme(), // 🔥 semua jadi Poppins
+        textTheme: GoogleFonts.poppinsTextTheme(),
         appBarTheme: AppBarTheme(
           backgroundColor: Color(0xFF8F8395), // purple ash
           centerTitle: true,
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         ),
         floatingActionButtonTheme: FloatingActionButtonThemeData(
           backgroundColor: Color(0xFF8F8395),
-          shape: CircleBorder(), // 🔥 tombol bulat
+          shape: CircleBorder(),
         ),
       ),
       home: HomePage(),
