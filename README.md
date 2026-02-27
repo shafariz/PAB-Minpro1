@@ -94,3 +94,10 @@ Dependency google_fonts digunakan untuk mengatur jenis huruf (font) pada aplikas
 Pada aplikasi ini Font Poppins digunakan sebagai font utama pada seluruh aplikasi danFont Playfair Display digunakan khusus untuk judul “My Favorite Books” agar terlihat lebih elegan.
 
 Dengan google_fonts, kita tidak perlu mengunduh dan memasukkan file font secara manual karena font dapat langsung digunakan melalui package ini.
+
+# Dokumentasi Program
+
+**Halaman Utama**
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b2d96211-b118-44c5-8c2c-1e5f1638e490" />
+
