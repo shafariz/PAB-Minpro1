@@ -40,6 +40,22 @@ Setelah tombol Save ditekan:
 
 - Tampilan diperbarui menggunakan setState()
 
+**2. READ (Menampilkan Daftar Buku)**
+
+Semua buku yang telah ditambahkan akan ditampilkan pada halaman utama dalam bentuk Card yang modern dan membulat.
+
+Informasi yang ditampilkan:
+
+- Book Title (Bold)
+
+- Author
+
+- Year
+
+- Total Pages
+
+Jika belum ada data, aplikasi akan menampilkan pesan “No favorite books yet. Tap + to add.”
+
 ---
 
 # Widget yang Digunakan
