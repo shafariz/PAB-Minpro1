@@ -62,7 +62,32 @@ Aplikasi ini menerapkan navigasi antar halaman menggunakan GetX Navigation sebag
 | StatefulWidget       | Digunakan pada halaman utama karena data buku bisa berubah saat ditambah, diubah, atau dihapus.                              |
 | StatelessWidget      | Digunakan pada halaman yang tidak memerlukan perubahan data secara langsung.                                                 |
 
-
 ---
 
-# Dokumentasi Program dan Cara Menggunakannya
+# Dependencies
+
+Aplikasi Daftar Buku Favorit menggunakan beberapa dependencies tambahan untuk mendukung fitur dan tampilan aplikasi. Berikut penjelasannya:
+
+**1. get**
+
+Dependency get digunakan untuk mengatur navigasi antar halaman dalam aplikasi. Dengan GetX, proses perpindahan halaman menjadi lebih sederhana dibandingkan menggunakan Navigator biasa.
+
+Pada aplikasi ini, GetX digunakan untuk:
+
+- Berpindah ke halaman tambah dan edit buku menggunakan Get.to()
+
+- Kembali ke halaman sebelumnya sambil mengirim data menggunakan Get.back(result:)
+
+- Penggunaan GetX membuat kode navigasi lebih ringkas, mudah dibaca, dan lebih efisien.
+
+**2. google_fonts**
+
+Dependency google_fonts digunakan untuk mengatur jenis huruf (font) pada aplikasi agar tampil lebih menarik dan sesuai dengan desain yang diinginkan.
+
+Pada aplikasi ini:
+
+- Font Poppins digunakan sebagai font utama pada seluruh aplikasi
+
+- Font Playfair Display digunakan khusus untuk judul “My Favorite Books” agar terlihat lebih elegan
+
+Dengan google_fonts, kita tidak perlu mengunduh dan memasukkan file font secara manual karena font dapat langsung digunakan melalui package ini.
