@@ -1,3 +1,8 @@
-# daftar_buku_favorit
+# APLIKASI DAFTAR BUKU FAVORIT
 
-A new Flutter project.
+Shafa Rizqi Nur Wahidah (2409116041)
+Sistem Informasi B 2024
+
+# Deskripsi Aplikasi
+# Fitur Aplikasi
+# Widget yang Digunakan
