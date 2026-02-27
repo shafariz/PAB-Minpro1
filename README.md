@@ -10,7 +10,7 @@ Sistem Informasi B 2024
 
 Aplikasi ini memungkinkan pengguna untuk menambahkan data buku baru, melihat daftar buku yang telah disimpan, mengedit informasi buku, dan menghapus buku dari daftar.
 
-Aplikasi ini dirancang dengan tampilan modern dan aesthetic menggunakan perpaduan warna Purple Ash (#8F8395) dan Vanilla (#F3E5AB) serta Font Poppins sebagai font utama dan Playfair Display khusus untuk judul aplikasi
+Aplikasi ini dirancang dengan tampilan UI modern dan aesthetic menggunakan perpaduan warna Purple Ash (#8F8395) dan Vanilla (#F3E5AB) serta Font Poppins sebagai font utama dan Playfair Display khusus untuk judul aplikasi.
 
 # Fitur Aplikasi
 # Widget yang Digunakan
