@@ -20,71 +20,23 @@ Aplikasi ini dirancang dengan tampilan UI modern dan aesthetic menggunakan perpa
 
 **1. CREATE (Tambah Data Buku)**
 
-Pengguna dapat menambahkan buku baru melalui halaman “Add Book”.
-
-Data yang harus diisi:
-
-✦ Book Title (Judul Buku)
-
-✦ Author (Penulis)
-
-✦ Year (Tahun Terbit)
-
-✦ Total Pages (Jumlah Halaman)
-
-Setelah tombol Save ditekan:
-
-✦ Data akan dikirim kembali ke halaman utama menggunakan Get.back(result:)
-
-✦ Buku langsung muncul dalam daftar
-
-✦ Tampilan diperbarui menggunakan setState()
+Fitur ini memungkinkan pengguna untuk menambahkan buku baru melalui halaman “Add Book”. Pada halaman tersebut, pengguna diminta untuk mengisi beberapa data penting yaitu Book Title (Judul Buku), Author (Penulis), Year (Tahun Terbit), dan Total Pages (Jumlah Halaman). Setelah tombol Save ditekan, data buku akan dikirim kembali ke halaman utama menggunakan Get.back(result:). Buku yang baru ditambahkan akan langsung muncul di dalam daftar, dan tampilan diperbarui secara otomatis menggunakan setState() sehingga pengguna dapat langsung melihat hasil input tanpa perlu memuat ulang aplikasi.
 
 **2. READ (Menampilkan Daftar Buku)**
 
-Semua buku yang telah ditambahkan akan ditampilkan pada halaman utama dalam bentuk Card yang modern dan membulat.
+Fitur ini berfungsi untuk menampilkan seluruh buku yang telah ditambahkan oleh pengguna. Data buku ditampilkan pada halaman utama dalam bentuk Card dengan desain membulat agar terlihat modern dan rapi. Setiap card menampilkan informasi berupa Book Title yang ditampilkan dengan huruf tebal, Author, Year, serta Total Pages. Apabila belum ada buku yang ditambahkan, aplikasi akan menampilkan pesan “No favorite books yet. Tap + to add.” sebagai informasi bahwa daftar masih kosong.
 
-Informasi yang ditampilkan:
+**3. UPDATE (Edit Data Buku)** 
 
-✦ Book Title (Bold)
-
-✦ Author
-
-✦ Year
-
-✦ Total Pages
-
-Jika belum ada data, aplikasi akan menampilkan pesan “No favorite books yet. Tap + to add.”
-
-**3. UPDATE (Edit Data Buku)** **[NILAI TAMBAH]**
-
-Pengguna dapat mengedit data buku dengan menekan ikon ✏️ (edit).
-
-Prosesnya:
-
-✦ Aplikasi berpindah ke halaman Edit menggunakan Get.to()
-
-✦ Data lama otomatis terisi di TextField
-
-✦ Setelah tombol Update ditekan, data diperbarui
-
-✦ Halaman kembali ke Home menggunakan Get.back(result:)
-
-✦ Daftar langsung ter-update
+Fitur update memungkinkan pengguna untuk mengubah data buku yang sudah tersimpan. Ketika ikon edit ditekan, aplikasi akan berpindah ke halaman Edit menggunakan Get.to(). Pada halaman tersebut, data lama akan otomatis terisi pada setiap TextField sehingga pengguna tidak perlu mengetik ulang dari awal. Setelah perubahan selesai dan tombol Update ditekan, data akan diperbarui dan dikirim kembali ke halaman utama menggunakan Get.back(result:). Daftar buku kemudian langsung diperbarui sehingga perubahan dapat terlihat secara real-time.
 
 **4. DELETE (Hapus Data Buku)**
 
-Pengguna dapat menghapus buku dari daftar dengan menekan ikon 🗑️ (delete).
+Fitur delete memungkinkan pengguna untuk menghapus buku dari daftar favorit. Ketika ikon delete ditekan, data buku akan dihapus dari list yang tersimpan di dalam state aplikasi. Setelah itu, tampilan akan langsung diperbarui menggunakan setState() sehingga buku yang dihapus tidak lagi muncul dalam daftar.
 
-Saat tombol delete ditekan data dihapus dari list dan tampilan diperbarui menggunakan setState()
+**5. MULTI PAGE NAVIGATION**
 
-**5. MULTI PAGE NAVIGATION [NILAI TAMBAH]**
-
-Aplikasi menggunakan GetX Navigation untuk berpindah antar halaman:
-
-✦ Get.to() untuk berpindah ke halaman Tambah atau Edit
-
-✦ Get.back(result:) untuk kembali ke halaman sebelumnya sambil mengirim data
+Aplikasi ini menerapkan navigasi antar halaman menggunakan GetX Navigation sebagai nilai tambah. Perpindahan halaman dilakukan dengan Get.to() untuk menuju halaman Tambah atau Edit, dan Get.back(result:) untuk kembali ke halaman sebelumnya sambil mengirimkan data. Penggunaan GetX membuat struktur navigasi menjadi lebih sederhana dan mudah dikelola dibandingkan Navigator biasa.
 
 ---
 
