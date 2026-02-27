@@ -69,13 +69,13 @@ Aplikasi ini menerapkan navigasi antar halaman menggunakan GetX Navigation sebag
 ---
 
 # Dependencies
-'''dart
+```dart
 dependencies:
   flutter:
     sdk: flutter
   get: ^4.6.6
   google_fonts: ^6.2.1
-'''
+```
 
 Aplikasi Daftar Buku Favorit menggunakan beberapa dependencies tambahan untuk mendukung fitur dan tampilan aplikasi. Berikut penjelasannya:
 
