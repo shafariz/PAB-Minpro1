@@ -56,6 +56,24 @@ Informasi yang ditampilkan:
 
 Jika belum ada data, aplikasi akan menampilkan pesan “No favorite books yet. Tap + to add.”
 
+**3. UPDATE (Edit Data Buku)** NILAI TAMBAH
+
+Pengguna dapat mengedit data buku dengan menekan ikon ✏️ (edit).
+
+Prosesnya:
+
+✦ Aplikasi berpindah ke halaman Edit menggunakan Get.to()
+
+✦ Data lama otomatis terisi di TextField
+
+✦ Setelah tombol Update ditekan, data diperbarui
+
+✦ Halaman kembali ke Home menggunakan Get.back(result:)
+
+✦ Daftar langsung ter-update
+
+
+
 ---
 
 # Widget yang Digunakan
