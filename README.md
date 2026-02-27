@@ -42,25 +42,26 @@ Aplikasi ini menerapkan navigasi antar halaman menggunakan GetX Navigation sebag
 
 # Widget yang Digunakan
 
-| Widget | Fungsi |
-|---------|--------|
-| GetMaterialApp | Digunakan sebagai root aplikasi yang mendukung navigasi menggunakan GetX. |
-| Scaffold | Menyediakan struktur dasar halaman seperti body dan floating action button. |
-| Container | Digunakan untuk membuat header dengan warna, padding, dan border radius melengkung. |
-| Column | Menyusun widget secara vertikal dalam satu halaman. |
-| Expanded | Membuat ListView mengisi sisa ruang yang tersedia di dalam Column. |
-| ListView.builder | Menampilkan daftar buku secara dinamis sesuai jumlah data dalam list. |
-| Card | Membungkus setiap data buku agar tampil lebih rapi dan memiliki efek bayangan. |
-| ListTile | Menyusun isi dalam Card seperti judul, detail buku, dan tombol aksi. |
-| Text | Menampilkan tulisan seperti judul aplikasi, subtitle, dan informasi buku. |
-| TextField | Menerima input dari pengguna saat menambahkan dan mengedit data buku. |
-| ElevatedButton | Digunakan sebagai tombol aksi seperti menyimpan dan memperbarui data. |
-| IconButton | Digunakan untuk tombol edit dan delete pada setiap item buku. |
-| FloatingActionButton | Digunakan sebagai tombol utama untuk menambahkan buku baru. |
-| Padding | Memberikan jarak antar widget agar tampilan tidak terlalu rapat. |
-| SizedBox | Memberikan jarak vertikal antar elemen. |
-| StatefulWidget | Digunakan pada halaman utama karena data dapat berubah (tambah, edit, hapus). |
-| StatelessWidget | Digunakan pada halaman yang tidak memerlukan perubahan state kompleks. |
+| Widget               | Fungsi                                                                                                                       |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| GetMaterialApp       | Digunakan sebagai dasar utama aplikasi dan untuk mengatur navigasi antar halaman menggunakan GetX.                           |
+| Scaffold             | Menjadi kerangka utama setiap halaman yang menampung bagian seperti body dan tombol tambah (FloatingActionButton).           |
+| Container            | Digunakan untuk membuat bagian header dengan warna latar, jarak (padding), dan sudut melengkung agar tampilan lebih menarik. |
+| Column               | Mengatur widget agar tersusun dari atas ke bawah secara vertikal.                                                            |
+| Expanded             | Membuat daftar buku memenuhi sisa ruang layar agar tampilan rapi dan proporsional.                                           |
+| ListView.builder     | Menampilkan daftar buku secara otomatis sesuai jumlah data yang ada.                                                         |
+| Card                 | Membungkus setiap data buku agar terlihat lebih rapi dan memiliki efek bayangan.                                             |
+| ListTile             | Mengatur isi di dalam Card seperti judul buku, detail informasi, dan tombol edit serta delete.                               |
+| Text                 | Menampilkan semua tulisan dalam aplikasi seperti judul, deskripsi, dan informasi buku.                                       |
+| TextField            | Tempat pengguna memasukkan data buku saat menambah atau mengedit buku.                                                       |
+| ElevatedButton       | Tombol untuk menyimpan atau memperbarui data buku.                                                                           |
+| IconButton           | Tombol berbentuk ikon yang digunakan untuk edit dan hapus data.                                                              |
+| FloatingActionButton | Tombol bulat dengan ikon "+" yang digunakan untuk menambahkan buku baru.                                                     |
+| Padding              | Memberi jarak antar elemen agar tampilan tidak terlalu rapat.                                                                |
+| SizedBox             | Memberi jarak vertikal antar widget agar lebih rapi.                                                                         |
+| StatefulWidget       | Digunakan pada halaman utama karena data buku bisa berubah saat ditambah, diubah, atau dihapus.                              |
+| StatelessWidget      | Digunakan pada halaman yang tidak memerlukan perubahan data secara langsung.                                                 |
+
 
 ---
 
