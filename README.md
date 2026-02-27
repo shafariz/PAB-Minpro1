@@ -56,7 +56,7 @@ Informasi yang ditampilkan:
 
 Jika belum ada data, aplikasi akan menampilkan pesan “No favorite books yet. Tap + to add.”
 
-**3. UPDATE (Edit Data Buku)** NILAI TAMBAH
+**3. UPDATE (Edit Data Buku)** [NILAI TAMBAH]
 
 Pengguna dapat mengedit data buku dengan menekan ikon ✏️ (edit).
 
