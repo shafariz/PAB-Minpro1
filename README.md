@@ -101,3 +101,16 @@ Dengan google_fonts, kita tidak perlu mengunduh dan memasukkan file font secara 
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b2d96211-b118-44c5-8c2c-1e5f1638e490" />
 
+**Halaman Tambah Buku**
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/3c97992d-ce81-424e-96d6-56c94ba89fa2" />
+
+**Halaman Utama Setelah Buku Ditambahkan**
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/57b5baae-81dd-4a77-b11c-0367ff7555fe" />
+
+**Halaman Edit Buku**
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ea63f1c0-f0ee-4109-9ba9-6c4853d3ccf3" />
+
+
