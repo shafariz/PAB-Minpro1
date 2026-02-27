@@ -89,4 +89,27 @@ Aplikasi menggunakan GetX Navigation untuk berpindah antar halaman:
 ---
 
 # Widget yang Digunakan
+
+| Widget | Fungsi |
+|---------|--------|
+| GetMaterialApp | Digunakan sebagai root aplikasi yang mendukung navigasi menggunakan GetX. |
+| Scaffold | Menyediakan struktur dasar halaman seperti body dan floating action button. |
+| Container | Digunakan untuk membuat header dengan warna, padding, dan border radius melengkung. |
+| Column | Menyusun widget secara vertikal dalam satu halaman. |
+| Expanded | Membuat ListView mengisi sisa ruang yang tersedia di dalam Column. |
+| ListView.builder | Menampilkan daftar buku secara dinamis sesuai jumlah data dalam list. |
+| Card | Membungkus setiap data buku agar tampil lebih rapi dan memiliki efek bayangan. |
+| ListTile | Menyusun isi dalam Card seperti judul, detail buku, dan tombol aksi. |
+| Text | Menampilkan tulisan seperti judul aplikasi, subtitle, dan informasi buku. |
+| TextField | Menerima input dari pengguna saat menambahkan dan mengedit data buku. |
+| ElevatedButton | Digunakan sebagai tombol aksi seperti menyimpan dan memperbarui data. |
+| IconButton | Digunakan untuk tombol edit dan delete pada setiap item buku. |
+| FloatingActionButton | Digunakan sebagai tombol utama untuk menambahkan buku baru. |
+| Padding | Memberikan jarak antar widget agar tampilan tidak terlalu rapat. |
+| SizedBox | Memberikan jarak vertikal antar elemen. |
+| StatefulWidget | Digunakan pada halaman utama karena data dapat berubah (tambah, edit, hapus). |
+| StatelessWidget | Digunakan pada halaman yang tidak memerlukan perubahan state kompleks. |
+
+---
+
 # Dokumentasi Program dan Cara Menggunakannya
