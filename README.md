@@ -83,22 +83,14 @@ Aplikasi Daftar Buku Favorit menggunakan beberapa dependencies tambahan untuk me
 
 Dependency get digunakan untuk mengatur navigasi antar halaman dalam aplikasi. Dengan GetX, proses perpindahan halaman menjadi lebih sederhana dibandingkan menggunakan Navigator biasa.
 
-Pada aplikasi ini, GetX digunakan untuk:
+Pada aplikasi ini, GetX digunakan untuk berpindah ke halaman tambah dan edit buku menggunakan Get.to() dan kembali ke halaman sebelumnya sambil mengirim data menggunakan Get.back(result:)
 
-- Berpindah ke halaman tambah dan edit buku menggunakan Get.to()
-
-- Kembali ke halaman sebelumnya sambil mengirim data menggunakan Get.back(result:)
-
-- Penggunaan GetX membuat kode navigasi lebih ringkas, mudah dibaca, dan lebih efisien.
+Penggunaan GetX membuat kode navigasi lebih ringkas, mudah dibaca, dan lebih efisien.
 
 **2. google_fonts**
 
 Dependency google_fonts digunakan untuk mengatur jenis huruf (font) pada aplikasi agar tampil lebih menarik dan sesuai dengan desain yang diinginkan.
 
-Pada aplikasi ini:
-
-- Font Poppins digunakan sebagai font utama pada seluruh aplikasi
-
-- Font Playfair Display digunakan khusus untuk judul “My Favorite Books” agar terlihat lebih elegan
+Pada aplikasi ini Font Poppins digunakan sebagai font utama pada seluruh aplikasi danFont Playfair Display digunakan khusus untuk judul “My Favorite Books” agar terlihat lebih elegan.
 
 Dengan google_fonts, kita tidak perlu mengunduh dan memasukkan file font secara manual karena font dapat langsung digunakan melalui package ini.
